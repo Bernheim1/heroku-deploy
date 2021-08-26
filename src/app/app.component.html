@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 1</title>
+
+</head>
+<body>
+  <input type="number" [(ngModel)]="numero1">
+  <input type="number" [(ngModel)]="numero2">
+
+  <button id= "btnCalcular" (click)="calcular()">Calcular</button>
+  <button id= "btnLimpiar" (click)="limpiar()">Limpiar cuadros de texto</button>
+
+  <br>
+  Suma: {{suma}}
+  Promedio: {{promedio}}
+</body>
+</html>
